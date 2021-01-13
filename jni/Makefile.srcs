@@ -1,0 +1,5 @@
+
+SRCS =  ../src/rnn_reader.c ../src/rnn_data.c ../src/pitch.c ../src/rnn.c ../src/denoise.c ../src/kiss_fft.c ../src/celt_lpc.c
+INCLS =  ../src/rnn_data.h ../src/tansig_table.h ../src/pitch.h ../src/rnn.h ../src/kiss_fft.h ../src/opus_types.h ../src/celt_lpc.h ../src/common.h ../src/_kiss_fft_guts.h ../src/arch.h ../include/rnnoise.h
+
+INCLUDE = -I../src -I../include

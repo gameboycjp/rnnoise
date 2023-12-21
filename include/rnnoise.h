@@ -48,6 +48,10 @@ extern "C" {
 # endif
 #endif
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 typedef struct DenoiseState DenoiseState;
 typedef struct RNNModel RNNModel;
 
@@ -109,6 +113,7 @@ RNNOISE_EXPORT void rnnoise_model_free(RNNModel *model);
 
 #ifdef __cplusplus
 }
+#endif
 #endif
 
 #endif
